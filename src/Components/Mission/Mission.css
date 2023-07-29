@@ -1,0 +1,58 @@
+.mission-container{
+    background-color: whitesmoke;
+}
+
+
+.visions-h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 40%;
+    color: rgba(0, 0, 0, 0.64);
+    cursor: pointer;
+}
+
+.mission-cards{
+    display: flex;
+   flex-wrap: wrap;
+   padding: 14px;
+   flex-direction: row;
+}
+
+
+.mission-card{
+    width: 400px;
+    height: 400px;
+    margin: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+
+.h1-images{
+   background-color: whitesmoke;
+}
+
+.h1-images h1{
+    font-size: 30px;
+    padding-left: 0px;
+    font-weight: bold;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.courage-img{
+    width: 150px;
+}
+
+.mission-p{
+    font-size: 13px;
+    padding-top: 30px;
+    display: block;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.669);
+    cursor: pointer; 
+}

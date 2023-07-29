@@ -1,0 +1,22 @@
+.Year-container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+h3{
+    padding: 5px;
+    font-size: 15px;
+    font: 1em sans-serif;
+    cursor: pointer;
+}
+
+p{
+    padding: 5px;
+    font-size: 15px;
+    font: 1em sans-serif;
+    cursor: pointer;
+}

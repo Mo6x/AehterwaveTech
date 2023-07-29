@@ -1,0 +1,7 @@
+.section-img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    background-image: url(../../assert/slite.webp);
+    background-size: cover;
+}

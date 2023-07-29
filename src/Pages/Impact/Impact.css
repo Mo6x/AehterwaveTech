@@ -1,0 +1,97 @@
+.Impact-container{
+    background-color: whitesmoke;
+}
+
+.impact-lists{
+    margin-top: 5%;
+}
+
+.impact-h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 36%;
+    color: rgba(0, 0, 0, 0.64);
+    cursor: pointer;
+}
+
+
+.impact-cards{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 80px;
+   flex-direction: row;
+}
+
+
+.impact-card{
+    width: 500px;
+    height: 400px;
+    margin: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.impact-image{
+    width: 280px;
+    height: 180px;
+}
+
+
+.impact-h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 0px;
+    margin-bottom: 0;
+    /* color: rgba(0, 0, 0, 0.64); */
+    color: black;
+    cursor: pointer;
+}
+
+
+.impact-p{
+    font-size: 15px;
+    padding-top: 30px;
+    display: block;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.669);
+    cursor: pointer;
+}
+
+
+.impact-vision{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: -4%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+.impact-visions{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.vision-imges{
+    width: 350px;
+    height: 350px;
+}
+
+.vision-h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 50px;
+    color: rgba(0, 0, 0, 0.64);
+    cursor: pointer;
+}
+

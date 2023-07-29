@@ -1,0 +1,104 @@
+.Cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.vision{
+   width: 30%;
+   height: 380px;
+   margin-top: 20px;
+   margin-left:20px;
+   border-radius: 10px;
+   border: 3px solid rgba(0, 0, 139, 0.911);
+   background-color: rgba(0, 0, 255, 0.621);
+}
+
+span{
+    display: block;
+    margin-top: -20px;
+    margin-left: -15%;
+    cursor: pointer;
+}
+
+h1{
+   font-weight: bold; 
+   padding-top: 15px;
+   padding-left: 30%;
+   cursor: pointer;
+   color: white;
+}
+
+.paraghy{
+    width: 90%;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-family: serif;
+    cursor: pointer;
+    color: white;
+}
+
+
+.Cards-items{
+    padding: 20px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+h2{
+    font-size: 15px;
+    margin-top: 102%;
+    padding-left: 10px;
+    font-family: serif;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.701);
+    background-color: whitesmoke;
+}
+
+ .Joseph-slide{
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    transition: all .8s;
+    background-image: url(../../assert/Joseph.png);
+    background-size: cover;
+    border: 3px solid rgba(0, 0, 139, 0.911);
+    background-color: rgba(0, 0, 255, 0.621);
+}
+
+ .Biola-slide{
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    transition: all .8s;
+    background-image: url(../../assert/moses.png);
+    background-size: cover;
+    border: 3px solid rgba(0, 0, 139, 0.911);
+    background-color: rgba(0, 0, 255, 0.621);
+}
+
+.Moses-slide{
+    width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    transition: all .8s;
+    background-image: url(../../assert/moses.png);
+    background-size: cover;
+    border: 3px solid rgba(0, 0, 139, 0.911);
+    background-color: rgba(0, 0, 255, 0.621);
+}
+
+.Card-slide &:hover{
+    transform: rotate(180deg);
+}
+

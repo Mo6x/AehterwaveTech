@@ -1,0 +1,53 @@
+.Community-container{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: whitesmoke;
+}
+
+.Community-details{
+    /* margin-top: 5%; */
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Technology-img{
+    width: 840px;
+    height: 560px;
+    border-radius: 10px;
+    transition: all .8s;
+    background-image: url(../../assert/person.jpeg);
+    background-size: cover;
+    border: 0px solid black;
+    /* background-color: rgba(0, 0, 255, 0.621); */
+}
+
+.community-para{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.community-h1{
+   font-size: 60px;
+   font-weight: bold;
+   font-family: serif;
+   padding-left: 15%;
+   color: rgba(0, 0, 0, 0.64);
+   cursor: pointer;
+ }
+
+
+.community-p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: serif;
+    cursor: pointer;
+}
+

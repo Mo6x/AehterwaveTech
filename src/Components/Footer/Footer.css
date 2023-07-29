@@ -1,0 +1,34 @@
+.Footer-container{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+
+.Footer-lists{
+    display: flex;
+    width: 15%;
+    margin: 2rem;
+    margin-left: 55px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.h-one{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+    font-family: serif;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+
+ ul, li{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.67);
+    cursor: pointer;
+}
