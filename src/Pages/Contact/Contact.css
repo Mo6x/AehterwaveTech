@@ -1,0 +1,53 @@
+.Contact-container{
+
+}
+
+.contact-list{
+    display: flex;
+}
+
+.contact-form{
+
+  background-color: white;
+}
+
+.contact-h1{
+    font-size: 50px;
+    color: black;
+}
+
+
+.contact-forms label{ 
+    font-size: 25px;
+}
+
+.contact-forms input{
+    display: block; 
+    width: 550px;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+ textarea{
+    width: 100%;
+    height: 150px;
+    display: block; 
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+
+.more-detail{
+   color: black;
+}
+
+.more-details{
+    color: black;
+}

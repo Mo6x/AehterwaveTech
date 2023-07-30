@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='navbar-section'>
             <div className='navbe-img'>
               <img src={logo} alt='Company-logo' />
-              <h className='appgenius'>AppGenius Technologies</h>
+              <h className='appgenius'>Genius Technologies</h>
             </div>
             <div className='Navbar-lists'> 
                <ul>
