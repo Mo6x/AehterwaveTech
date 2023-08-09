@@ -44,25 +44,25 @@ const Contact = () => {
       <h1 className='contact-h1'>Contact Us</h1>
        <form onSubmit={handleSubmit}>
       <div className='contact-forms'>
-        <label htmlFor="firstName">First Name:</label>
+        <label htmlFor="firstName">First Name</label>
         <input type="text" id="firstName" name="firstName" value={formData.firstName}  onChange={handleChange} required
         />
-        <label htmlFor="lastName">Last Name:</label>
+        <label htmlFor="lastName">Last Name</label>
         <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange}  required
         />
       </div>
       <div className='contact-forms'>
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email">Email</label>
         <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required
         />
       </div>
       <div className='contact-forms'>
-        <label htmlFor="subject">Subject:</label>
+        <label htmlFor="subject">Subject</label>
         <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange}  required
         />
       </div>
       <div className='contact-forms'>
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message">Message</label>
         <textarea id="message" name="message" value={formData.message} onChange={handleChange} required
         />
       </div>

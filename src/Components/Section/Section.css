@@ -5,3 +5,8 @@
     background-image: url(../../assert/slite.webp);
     background-size: cover;
 }
+
+
+@media all and ( max-width: 750px) {
+    
+}
