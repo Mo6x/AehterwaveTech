@@ -22,10 +22,10 @@ const Navbar = () => {
                 <li> <Link  className="link" to="/Impact">Impact</Link> </li>
                 <li> <Link  className="link" to="/Contact">Contact-Us</Link></li>
                </ul>
-               <div className='avater-img'>
-               <img src={ Avater} alt='avatar images' />
-               </div>
             </div>
+              <div className='avater-img'>
+               <img src={ Avater} alt='avatar images' />
+              </div>
         </div>
     </div>
   )

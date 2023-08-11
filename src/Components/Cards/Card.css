@@ -102,3 +102,12 @@ h2{
     transform: rotate(180deg);
 }
 
+
+@media all and (max-width: 750px){
+    .vision{
+        width: 100%;
+        height: 380px;
+        margin-top: 20px;
+     }
+     
+}
