@@ -5,3 +5,11 @@
     background-image: url(../../assert/lang.jpeg);
     background-size: cover;
 }
+
+@media all and (max-width: 750px){
+    .header-Container{
+        height: 400px;
+        background-image: url(../../assert/lang.jpeg);
+        background-size: cover;
+    }
+}

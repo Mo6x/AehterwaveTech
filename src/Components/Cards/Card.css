@@ -8,8 +8,8 @@
 }
 
 .vision{
-   width: 30%;
-   height: 380px;
+   width: 25%;
+   height: 300px;
    margin-top: 20px;
    margin-left:20px;
    border-radius: 10px;
@@ -19,12 +19,13 @@
 
 span{
     display: block;
-    margin-top: -20px;
-    margin-left: -15%;
+    margin-top: -10px;
+    margin-left: -35%;
     cursor: pointer;
 }
 
-h1{
+.myself{
+    font-size: 20px;
    font-weight: bold; 
    padding-top: 15px;
    padding-left: 30%;
@@ -34,9 +35,9 @@ h1{
 
 .paraghy{
     width: 90%;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 30px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 20px;
     font-weight: 400;
     font-family: serif;
     cursor: pointer;
@@ -46,7 +47,7 @@ h1{
 
 .Cards-items{
     padding: 20px;
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,7 +57,7 @@ h1{
 
 h2{
     font-size: 15px;
-    margin-top: 102%;
+    margin-top: 95%;
     padding-left: 10px;
     font-family: serif;
     font-weight: 400;
@@ -66,8 +67,8 @@ h2{
 }
 
  .Joseph-slide{
-    width: 350px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     transition: all .8s;
     background-image: url(../../assert/Joseph.png);
@@ -77,8 +78,8 @@ h2{
 }
 
  .Biola-slide{
-    width: 350px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     transition: all .8s;
     background-image: url(../../assert/moses.png);
@@ -88,8 +89,8 @@ h2{
 }
 
 .Moses-slide{
-    width: 350px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     transition: all .8s;
     background-image: url(../../assert/moses.png);
@@ -105,9 +106,42 @@ h2{
 
 @media all and (max-width: 750px){
     .vision{
-        width: 100%;
-        height: 380px;
+        width: 90%;
+        height: 300px;
         margin-top: 20px;
      }
-     
+
+     span{
+        display: block;
+        margin-top: -10px;
+        margin-left: -23%;
+        cursor: pointer;
+    }
+    
+    .myself{
+        font-size: 15px;
+    }
+
+    .paraghy{
+        width: 90%;
+        font-size: 13px;
+    }
+
+     .Cards-items{
+        width: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+
+    .Biola-slide{
+        margin-top: 20px;
+    }
+
+    .Moses-slide{
+        margin-top: 20px;
+    }
 }

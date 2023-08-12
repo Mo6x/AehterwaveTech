@@ -4,7 +4,7 @@
 
 
 .visions-h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: serif;
     padding-left: 40%;
@@ -13,16 +13,17 @@
 }
 
 .mission-cards{
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
-   padding: 14px;
+   padding: 15px;
+   margin-left: 20px;
    flex-direction: row;
 }
 
 
 .mission-card{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 1rem;
     padding: 20px;
     border-radius: 5px;
@@ -36,7 +37,7 @@
 }
 
 .h1-images h1{
-    font-size: 30px;
+    font-size: 15px;
     padding-left: 0px;
     font-weight: bold;
     font-family: serif;
@@ -44,15 +45,35 @@
 }
 
 .courage-img{
-    width: 150px;
+    width: 100px;
 }
 
 .mission-p{
-    font-size: 13px;
-    padding-top: 30px;
+    font-size: 11px;
+    padding-top: 10px;
     display: block;
-    font-weight: 200;
+    font-weight: 100;
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.669);
     cursor: pointer; 
+}
+
+@media all and (max-width: 750px){
+    .visions-h1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: serif;
+        padding-left: 30%;
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.64);
+        cursor: pointer;
+    }
+
+    .mission-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin-left: 5px;
+        flex-direction: row;
+     }
 }

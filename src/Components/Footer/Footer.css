@@ -9,14 +9,14 @@
 .Footer-lists{
     display: flex;
     width: 15%;
-    margin: 2rem;
+    margin: 5px;
     margin-left: 55px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .h-one{
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     font-weight: 200;
     font-family: serif;
@@ -25,10 +25,30 @@
     
 }
 
- ul, li{
+ .parent .child{
     font-size: 15px;
     font-weight: 200;
     font-family: serif;
     color: rgba(0, 0, 0, 0.67);
     cursor: pointer;
+}
+
+@media all and (max-width: 750px){
+    .Footer-container{
+        padding: 20px;
+    }
+
+    .Footer-lists{
+        display: flex;
+        width: 45%;
+        margin: 5px;
+    }
+
+    .parent .child{
+        font-size: 10px;
+    }
+
+    .h-one{
+        margin-left: -5px;
+    }
 }
