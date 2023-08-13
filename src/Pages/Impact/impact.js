@@ -71,7 +71,6 @@ const impact = () => {
                 </div>
              </div>
         </div>
-
         <div className='impact-vision'>
            <div className='impact-visions'>
                    <img src={Growth}  alt='Growth' className='vision-imges'/>

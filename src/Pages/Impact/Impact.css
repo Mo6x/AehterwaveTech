@@ -7,7 +7,7 @@
 }
 
 .impact-h1{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     font-family: serif;
     padding-left: 36%;
@@ -19,14 +19,14 @@
 .impact-cards{
    display: flex;
    flex-wrap: wrap;
-   padding: 80px;
+   padding: 50px;
    flex-direction: row;
 }
 
 
 .impact-card{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     margin: 1rem;
     padding: 20px;
     border-radius: 5px;
@@ -35,13 +35,13 @@
 }
 
 .impact-image{
-    width: 280px;
-    height: 180px;
+    width: 200px;
+    height: 120px;
 }
 
 
 .impact-h2{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     font-family: serif;
     padding-left: 0px;
@@ -53,7 +53,7 @@
 
 
 .impact-p{
-    font-size: 15px;
+    font-size: 10px;
     padding-top: 30px;
     display: block;
     font-weight: 200;
@@ -82,16 +82,52 @@
 
 
 .vision-imges{
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
 }
 
 .vision-h1{
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
     font-family: serif;
-    padding-left: 50px;
+    padding-left: 40px;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
 }
 
+
+@media all and (max-width: 750px){
+    .impact-h1{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: serif;
+        padding-left: 25%;
+        color: rgba(0, 0, 0, 0.64);
+        cursor: pointer;
+    }
+
+    .impact-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        flex-direction: row;
+     }
+
+     .impact-p{
+        font-size: 10px;
+        padding-top: 10px;
+        display: block;
+        font-weight: 200;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.669);
+        cursor: pointer;
+    }
+
+    .impact-visions{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+     
+}

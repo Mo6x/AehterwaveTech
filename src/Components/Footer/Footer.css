@@ -20,13 +20,13 @@
     color: black;
     font-weight: 200;
     font-family: serif;
-    padding-left: 10px;
+    padding-left: 0px;
     cursor: pointer;
     
 }
 
  .parent .child{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 200;
     font-family: serif;
     color: rgba(0, 0, 0, 0.67);
