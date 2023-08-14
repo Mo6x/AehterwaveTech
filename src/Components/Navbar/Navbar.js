@@ -6,15 +6,17 @@ import { Link } from "react-router-dom";
 
 
 
+
 const Navbar = () => {
   return (
     <div className='Navbar-container'>
         <div className='navbar-section'>
             <div className='navbe-img'>
               <img src={logo} alt='Company-logo' />
-              <h className='appgenius'>Genius Technologies</h>
+              <h1 className='appgenius'>XYLORISE TECHNOLOGIES</h1>
             </div>
             <div className='Navbar-lists'> 
+              <div className='list-link'>
                <ul>
                 <li> <Link  className="link" to="/">Home</Link> </li>
                 <li> <Link  className="link" to="/About">About-Us</Link> </li>
@@ -22,10 +24,11 @@ const Navbar = () => {
                 <li> <Link  className="link" to="/Impact">Impact</Link> </li>
                 <li> <Link  className="link" to="/Contact">Contact-Us</Link></li>
                </ul>
-            </div>
+               </div>
               <div className='avater-img'>
                <img src={ Avater} alt='avatar images' />
               </div>
+             </div>
         </div>
     </div>
   )

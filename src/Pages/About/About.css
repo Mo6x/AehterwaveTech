@@ -3,7 +3,7 @@
 }
 
 .About-services{
-    margin-top: 10%;
+    margin-top: 5%;
     width: 90%;
     margin-left: 5%;
     background-color: rgba(255, 255, 255, 0.556);
@@ -11,10 +11,10 @@
 
 
 .highlight{
-   font-size: 60px;
+   font-size: 40px;
    font-weight: bold;
    font-family: serif;
-   padding-left: 38%;
+   padding-left: 40%;
    color: rgba(0, 0, 0, 0.64);
    cursor: pointer;
 }

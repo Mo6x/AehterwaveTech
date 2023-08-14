@@ -10,7 +10,7 @@
     font-size: 40px;
     font-weight: bold;
     font-family: serif;
-    padding-left: 36%;
+    padding-left: 39%;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
 }
@@ -21,6 +21,7 @@
    flex-wrap: wrap;
    padding: 50px;
    flex-direction: row;
+   justify-content: space-evenly;
 }
 
 
@@ -53,8 +54,8 @@
 
 
 .impact-p{
-    font-size: 10px;
-    padding-top: 30px;
+    font-size: 12px;
+    padding-top: 20px;
     display: block;
     font-weight: 200;
     font-family: sans-serif;

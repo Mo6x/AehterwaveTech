@@ -17,36 +17,42 @@
 }
 
 .navbe-img{
+    height: 100px;
+    width: 0px;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 1%;
-    padding-top: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    flex-direction: row;
 }
 
 .navbe-img img{
-    height: 120px;
+    height: 100px;
+    margin-top: 0px;
+    padding: 10px;
     cursor: pointer;
-    border-radius: 10px; 
 }
 
 .appgenius{
     height: 0;
+    margin-top: 40px;
+    margin-right: -2px;
+    font-size: 12px;
     font-weight: bolder;
-    margin-top: 50px;
-    font-size: 15px;
     cursor: pointer;
     color: rgb(252, 212, 152);
 }
 
 .Navbar-lists{
-    height: 0px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
-    margin-left: 570px;
+    flex-direction: row;
 }
 
-.Navbar-lists ul, li, .link{
+.list-link{
+    margin-top: 10px;
+}
+
+.list-link ul, li, .link{
     display: flex;
     flex-wrap: wrap;
     font-weight: 400;
@@ -66,46 +72,81 @@
 .avater-img{
     height: 0;
     width: 0;
-    margin-top: -2px;
-    margin-right: 120px;
+    margin-top: 25px;
+    margin-right: 80px;
 }
 
 .avater-img img{
-    height: 120px;
+    height: 50px;
     cursor: pointer;
 }
 
 
+
 @media all and (max-width: 750px){
+   
+.navbe-img{
+    height: 100px;
+    width: 0px;
+    display: flex;
+    padding-left: 10px;
+    margin: 0px;
+    flex-direction: row;
+}
+
 
     .navbe-img img{
-        height: 80px;
+        height: 70px;
+        margin-top: 15px;
+        padding: 5px;
         cursor: pointer;
-        border-radius: 10px; 
     }
 
+    .appgenius{
+        height: 0;
+        margin-top: 40px;
+        margin-right: -2px;
+        font-size: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+        color: rgb(252, 212, 152);
+    }
 
    .navbe-img{
      display: flex;
      flex-wrap: wrap;
      display: block;
-     flex-direction: column;
+     flex-direction: row;
    }
 
    .Navbar-lists{
-     margin-left: 0px;
+     margin-left: 90px;
+     z-index: 50;
    }
 
-   .Navbar-lists ul, li, .link{
+   .list-link{
+     margin-top: 0px;
+     margin-left: 50px;
+     z-index: 50;
+   }
+
+   .list-link ul, li, .link{
     display: flex;
+    z-index: 50;
     flex-direction: column;
     background-color: aquamarine;
 }
 
 .avater-img{
-    margin-top: -10%;
-    padding-left: 50%;
-    background-color: blanchedalmond;
+    height: 0;
+    width: 0;
+    /* position: fixed; */
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.avater-img img{
+   height: 40px;
 }
 
 

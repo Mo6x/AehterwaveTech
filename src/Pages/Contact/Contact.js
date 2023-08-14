@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import '../Contact/Contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+import Footers from '../../Components/Footers/Footers';
 
 
 
@@ -71,7 +73,7 @@ const Contact = () => {
     </div>
     <div className='contact-info'>
        <div className='contact-infos'>
-         <h1 className='more-detail'>Mail us at support@pericius.com</h1>
+         <h1 className='more-detail'>Mail us at <span className='gmail'> support@pericius.com </span> </h1>
          <h1 className='more-detail'>Currently we operate out of USA, Nigeria</h1>
        </div>
        <div className='contact-infos'>
@@ -81,6 +83,8 @@ const Contact = () => {
        </div>
     </div>
   </div>  
+ <Footer />
+ <Footers />
   </div> 
   );
 }

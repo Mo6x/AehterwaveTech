@@ -65,10 +65,10 @@
       }
 
       .community-p{
+        height: 500px;
         font-size: 10px;
         font-weight: 400;
         font-family: serif;
-        margin-bottom: 10px;
         cursor: pointer;
     }
     

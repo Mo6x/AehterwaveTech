@@ -13,13 +13,13 @@ const Card = () => {
         </div>
         <div className='Cards-items'>
           <div className='Joseph-slide'>
-             <h2>CEO--Mr Joseph Solomon Chigozie</h2>
+             <h2>CEO-Mr Joseph Solomon Chigozie</h2>
           </div>
           <div className='Biola-slide'>
-          <h2>HR--Biola</h2>
+          <h2>HR- Hami Olana</h2>
           </div>
           <div className='Moses-slide'>
-          <h2>Team Lead--Christopher Osawel      Moses</h2>
+          <h2>Team Lead-Christopher Osawel      Moses</h2>
           </div>
         </div>  
     </div>
