@@ -52,6 +52,10 @@
     margin-top: 10px;
 }
 
+.close-button{
+    display: none;
+}
+
 .list-link ul, li, .link{
     display: flex;
     flex-wrap: wrap;
@@ -122,19 +126,36 @@
    .Navbar-lists{
      margin-left: 90px;
      z-index: 50;
+     flex-direction: column;
+     flex-direction: column-reverse;
    }
 
    .list-link{
-     margin-top: 0px;
-     margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+     margin-top: 60px;
+     margin-left: 110px;
      z-index: 50;
+     flex-direction: row;
+     flex-direction: row-reverse;
+     background-color: rgba(0, 0, 139, 0.919);
    }
+
+   .close-button{
+    display: flex;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: white;
+}
 
    .list-link ul, li, .link{
     display: flex;
     z-index: 50;
+    margin: 0.2rem;
+    font-size: 12px;
     flex-direction: column;
-    background-color: aquamarine;
+     /* background-color: rgba(0, 0, 139, 0.919); */
 }
 
 .avater-img{
@@ -142,7 +163,7 @@
     width: 0;
     /* position: fixed; */
     margin-top: 30px;
-    margin-right: 50px;
+    margin-left: 160px;
 }
 
 .avater-img img{
