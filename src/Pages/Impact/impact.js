@@ -26,7 +26,7 @@ const impact = () => {
                    <img src={Repair} alt='Repair imges' className='impact-image'/>
                    <h1 className='impact-h2'>Maintenance and Repair</h1>
                    <p className='impact-p'>
-                   Genius Technologies can aid technicians in identifying equipment issues and performing repairs efficiently. Using AR-powered smart glasses or mobile devices, technicians can access real-time visual instructions, diagrams, and troubleshooting guides, reducing downtime and minimizing errors.
+                   AetherWave Technologies can aid technicians in identifying equipment issues and performing repairs efficiently. Using AR-powered smart glasses or mobile devices, technicians can access real-time visual instructions, diagrams, and troubleshooting guides, reducing downtime and minimizing errors.
                    </p>
                 </div>
 
@@ -34,7 +34,7 @@ const impact = () => {
                    <img src={Quality} alt='Quality' className='impact-image'/>
                    <h1 className='impact-h2'>Quality Control and Inspection</h1>
                    <p className='impact-p'>
-                   In manufacturing processes, Genius Technologies can enhance quality control by automating visual inspections. AI-powered image recognition can identify defects, deviations, and anomalies in products, ensuring consistency and precision in production.
+                   In manufacturing processes, AetherWave Technologies can enhance quality control by automating visual inspections. AI-powered image recognition can identify defects, deviations, and anomalies in products, ensuring consistency and precision in production.
                    </p>
                 </div>
 
@@ -50,7 +50,7 @@ const impact = () => {
                    <img src={Supply} alt='Supply' className='impact-image'/>
                    <h1 className='impact-h2'>Supply Chain Management</h1>
                    <p className='impact-p'> 
-                   Genius Technologie can optimize supply chain operations. AI-powered cameras can monitor inventory levels, track shipments, and ensure efficient warehouse management, reducing waste and improving inventory accuracy.
+                   AetherWave Technologies can optimize supply chain operations. AI-powered cameras can monitor inventory levels, track shipments, and ensure efficient warehouse management, reducing waste and improving inventory accuracy.
                    </p>
                 </div>
 
@@ -58,7 +58,7 @@ const impact = () => {
                    <img src={Documentation}  alt='Documentation' className='impact-image'/>
                    <h1 className='impact-h2'>Documentation & Knowledge Sharing</h1>
                    <p className='impact-p'>
-                   Genius Technologie can improve documentation processes by capturing and storing visual data from inspections, maintenance, and other operations. This data can then be used for knowledge sharing, historical analysis, and process optimization.
+                   AetherWave Technologies can improve documentation processes by capturing and storing visual data from inspections, maintenance, and other operations. This data can then be used for knowledge sharing, historical analysis, and process optimization.
                    </p>
                 </div>
 
@@ -66,7 +66,7 @@ const impact = () => {
                    <img src={Compliance}  alt='Compliance' className='impact-image'/>
                    <h1 className='impact-h2'>Safety &  compliance in industrial settings</h1>
                    <p className='impact-p'> 
-                   Genius Technologie can enhance safety protocols and compliance. AR overlays can provide real-time safety instructions and highlight potential hazards, helping workers follow safety guidelines more effectively.
+                   AetherWave Technologies can enhance safety protocols and compliance. AR overlays can provide real-time safety instructions and highlight potential hazards, helping workers follow safety guidelines more effectively.
                    </p>
                 </div>
              </div>

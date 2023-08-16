@@ -59,7 +59,7 @@ const Footer = () => {
          
          <div className='Footer-lists'>
              <div className='parent'>
-             <h1 className='h-one'>AppGenius Technologies</h1>    
+             <h1 className='h-one'>AetherWave  Technologies</h1>    
                <div className='child'>Beta Testing and Feedback</div>
                <div className='child'>Tech Event Coordination</div>
                <div className='child'>Code Review and Debugging</div>

@@ -78,7 +78,7 @@ const Contact = () => {
        </div>
        <div className='contact-infos'>
          <h1 className='more-details'>Our address:</h1>
-         <h1 className='more-details'>Genius Technologies Private Limited</h1>
+         <h1 className='more-details'>AetherWave Technologies Private Limited</h1>
          <h1 className='more-details'>hjh</h1>
        </div>
     </div>

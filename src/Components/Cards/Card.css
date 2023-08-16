@@ -13,7 +13,7 @@
    margin-top: 20px;
    margin-left:20px;
    border-radius: 10px;
-   border: 3px solid rgba(0, 0, 139, 0.911);
+   border: 1px solid rgba(0, 0, 255, 0.621);
    background-color: rgba(0, 0, 255, 0.621);
 }
 
@@ -73,7 +73,7 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/Joseph.png);
     background-size: cover;
-    border: 3px solid rgba(0, 0, 139, 0.911);
+    border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }
 
@@ -84,7 +84,7 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/moses.png);
     background-size: cover;
-    border: 3px solid rgba(0, 0, 139, 0.911);
+    border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }
 
@@ -95,7 +95,7 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/moses.png);
     background-size: cover;
-    border: 3px solid rgba(0, 0, 139, 0.911);
+    border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }
 
@@ -124,7 +124,7 @@ h2{
 
     .paraghy{
         width: 90%;
-        font-size: 13px;
+        font-size: 12px;
     }
 
      .Cards-items{

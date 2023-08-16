@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='navbar-section'>
             <div className='navbe-img'>
               <img src={logo} alt='Company-logo' />
-              <h1 className='appgenius'>XYLORISE TECHNOLOGIES</h1>
+              <h1 className='appgenius'>AETHERWAVE  TECHNOLOGIES</h1>
             </div>
             <div className='Navbar-lists'> 
               <div className='list-link'>
