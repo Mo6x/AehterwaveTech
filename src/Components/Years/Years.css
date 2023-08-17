@@ -7,11 +7,24 @@
     background-color: whitesmoke;
 }
 
+@keyframes moveInLeft{
+    0% {
+       opacity: 0;
+       transform: translateX(-100px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translate(0);
+    }
+}
 
 .found{
     padding: 5px;
     font-size: 12px;
     cursor: pointer;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 
@@ -19,7 +32,10 @@
     padding: 5px;
     font-size: 12px;
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
+
 
 
 @media all and (max-width: 750px){

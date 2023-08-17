@@ -10,9 +10,11 @@
     font-size: 40px;
     font-weight: bold;
     font-family: serif;
-    padding-left: 39%;
+    text-align: center;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 
@@ -33,7 +35,13 @@
     border-radius: 5px;
     border: 3px solid white;
     background-color: white;
+    transition: all .2s;
 }
+
+.impact-card:hover{
+    box-shadow: 0 10px 20px;
+}
+
 
 .impact-image{
     width: 200px;

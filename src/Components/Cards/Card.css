@@ -7,12 +7,30 @@
     background-color: whitesmoke;
 }
 
+@keyframes moveInRight{
+    0% {
+       opacity: 0;
+       transform: translateX(100px);
+    }
+
+    8% {
+        transform: translate(-10px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translate(0);
+    }
+}
+
 .vision{
    width: 25%;
    height: 300px;
    margin-top: 20px;
    margin-left:20px;
    border-radius: 10px;
+   animation-name: moveInRight;
+    animation-duration: 5s;
    border: 1px solid rgba(0, 0, 255, 0.621);
    background-color: rgba(0, 0, 255, 0.621);
 }
@@ -66,6 +84,22 @@ h2{
     background-color: whitesmoke;
 }
 
+@keyframes moveInLeft{
+    0% {
+       opacity: 0;
+       transform: translateX(-100px);
+    }
+
+    8% {
+        transform: translate(10px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translate(0);
+    }
+}
+
  .Joseph-slide{
     width: 300px;
     height: 300px;
@@ -73,6 +107,9 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/Joseph.png);
     background-size: cover;
+    /* animation-delay: 1s; */
+    animation-name: moveInLeft;
+    animation-duration: 5s;
     border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }
@@ -84,6 +121,8 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/moses.png);
     background-size: cover;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
     border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }
@@ -95,6 +134,8 @@ h2{
     transition: all .8s;
     background-image: url(../../assert/moses.png);
     background-size: cover;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
     border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: rgba(0, 0, 255, 0.621);
 }

@@ -6,16 +6,23 @@
     margin-top: 10%;
 }
 
+
 .Service-lists{
     width: 85%;
     padding: 20px;
     margin-left: 7%;
+    transition: all .2s;
    background-color: white;
+}
+
+.Service-lists:hover{
+   box-shadow: 0 10px 20px;
 }
 
 .assist{
    font-size: 30px;
-   margin-left: 35%;
+   margin-left: 34%;
+   /* text-align: center; */
    font-weight: bold;
    font-family: serif;
    color: rgba(0, 0, 0, 0.64);
@@ -23,12 +30,14 @@
 }
 
 .span-p{
-  padding-left: 150px;
+   /* text-align: center; */
+  padding-left: 180px;
 }
 
 .pp{
    font-size: 10px;
 }
+
 
 .p-color-1{
   font-size: 10px;
@@ -36,6 +45,8 @@
    display: block;
    font-weight: bolder;
    color: rgba(240, 148, 11, 0.752);
+   animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 .span-p-1{
@@ -54,6 +65,8 @@
      display: block;
      font-weight: bolder;
      color: rgba(240, 148, 11, 0.752);
+     animation-name: moveInRight;
+    animation-duration: 5s;
   }
   
   .span-p-2{
@@ -99,13 +112,24 @@
   .p-side{
     width: 50%;
     font-size: 14px;
+    padding: 5px;
+    transition: all .2s;
     background-color: white;
+  }
+
+  .p-side:hover{
+      box-shadow: 0 10px 20px;
   }
 
   .income-img{
    width: 695px;
+   transition: all .2s;
    background-image: url(../../assert/feature-2023.jpeg);
    background-size: contain;
+  }
+
+  .income-img:hover{
+   box-shadow: 0 10px 20px;
   }
 
 
