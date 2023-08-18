@@ -23,6 +23,8 @@
     background-image: url(../../assert/person.jpeg);
     background-size: cover;
     border: 0px solid black;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
     /* background-color: rgba(0, 0, 255, 0.621); */
 }
 
@@ -42,6 +44,8 @@
    padding-left: 15%;
    color: rgba(0, 0, 0, 0.64);
    cursor: pointer;
+   animation-name: moveInLeft;
+    animation-duration: 5s;
  }
 
 
@@ -50,6 +54,8 @@
     font-weight: 400;
     font-family: serif;
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 @media all and (max-width: 750px){

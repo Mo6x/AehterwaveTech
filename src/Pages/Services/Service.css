@@ -27,6 +27,8 @@
    font-family: serif;
    color: rgba(0, 0, 0, 0.64);
    cursor: pointer;
+   animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 .span-p{
@@ -90,6 +92,8 @@
     font-family: serif;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
+    animation-name: moveInleft;
+    animation-duration: 5s;
    }
 
 
@@ -99,6 +103,8 @@
     font-weight: bold;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
    }
 
   .Service-list{

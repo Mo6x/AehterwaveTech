@@ -29,7 +29,7 @@
    margin-top: 20px;
    margin-left:20px;
    border-radius: 10px;
-   animation-name: moveInRight;
+    animation-name: moveInRight;
     animation-duration: 5s;
    border: 1px solid rgba(0, 0, 255, 0.621);
    background-color: rgba(0, 0, 255, 0.621);

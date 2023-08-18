@@ -17,6 +17,8 @@
    padding-left: 40%;
    color: rgba(0, 0, 0, 0.64);
    cursor: pointer;
+   animation-name: moveInRight;
+   animation-duration: 5s;
 }
 
 .who-we-are{
@@ -27,6 +29,8 @@
     font-weight: 400;
     font-family: serif;
     cursor: pointer;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 @media all and (max-width: 750px){

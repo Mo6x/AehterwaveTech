@@ -93,6 +93,8 @@
 .vision-imges{
     width: 200px;
     height: 200px;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 .vision-h1{
@@ -102,6 +104,8 @@
     padding-left: 40px;
     color: rgba(0, 0, 0, 0.64);
     cursor: pointer;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 

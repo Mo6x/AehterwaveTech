@@ -22,12 +22,16 @@
     height: 50px;
     margin-top: 20px;
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 .Footers-detail p{
     margin-top: 40px;
     font-size: 12px;
     font-weight: 400;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
 }
 
 .social-details{
@@ -39,6 +43,8 @@
     height: 20px;
     margin: 1rem;
     cursor: pointer;
+    animation-name: moveInRight;
+    animation-duration: 5s;
 }
 
 @media all and (max-width: 750px){
