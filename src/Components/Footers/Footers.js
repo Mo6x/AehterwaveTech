@@ -8,7 +8,8 @@ import Instagram from '../../assert/instagram.png';
 
 
 const Footers = () => {
-  return (
+     
+   return (
     <div className='Footes-container'>
         <div className='line'></div>
         <div className='Footers-detail'>
