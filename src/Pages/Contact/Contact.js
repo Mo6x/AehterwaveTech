@@ -73,13 +73,18 @@ const Contact = () => {
     </div>
     <div className='contact-info'>
        <div className='contact-infos'>
-         <h1 className='more-detail'>Mail us at <span className='gmail'> support@pericius.com </span> </h1>
+         <h1 className='more-detail'>Mail us at <span className='gmail'>Aetherwave.info@gmail.com</span> </h1>
          <h1 className='more-detail'>Currently we operate out of USA, Nigeria</h1>
        </div>
        <div className='contact-infos'>
-         <h1 className='more-details'>Our address:</h1>
+         <h1 className='more-details'>Our address: 74 Allen Ave, Allen 101233, Ikeja, Lagos Nigeria</h1>
          <h1 className='more-details'>AetherWave Technologies Private Limited</h1>
-         <h1 className='more-details'>hjh</h1>
+         <div className='contact-details'>
+         <h1 className='more-details'>Mobils: Numbers</h1>
+         <h1 className='more-details'>+1 (726) 567-0145</h1>
+         <h1 className='more-details'>+234 8058960314</h1>
+         <h1 className='more-details'>+234 7033102999</h1>
+         </div>
        </div>
     </div>
   </div>  
