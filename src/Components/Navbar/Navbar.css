@@ -1,5 +1,5 @@
 .Navbar-container{
-    width: 100%;
+    width: 1400px;
     height: 100px;
     background-color: rgba(0, 0, 139, 0.911);
 }
@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .navbe-img{
@@ -54,11 +54,6 @@
     flex-direction: row;
 }
 
-
-.close-button{
-    display: none;
-}
-
 .list-link ul, li, .link{
     display: flex;
     flex-wrap: wrap;
@@ -75,18 +70,16 @@
     text-decoration: none;
 }
 
-
-.avater-img{
-    height: 0;
-    width: 0;
-    margin-top: 25px;
-    margin-left: 0px;
+.link:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color:  rgb(252, 212, 152);
 }
 
-.avater-img img{
-    height: 40px;
+
+.avater-icon{
     display: none;
-    cursor: pointer;
 }
 
 
@@ -95,8 +88,6 @@
     .Navbar-container{
         width: 100%;
         height: 100px;
-        margin-top: -12%;
-        position: fixed;
         background-color: rgba(0, 0, 139, 0.911);
     }
 
@@ -123,32 +114,23 @@
 
 
    .Navbar-lists{
-     margin-left: 90px;
+    height: 50%;
+    padding: 20px;
      z-index: 50;
-     flex-direction: column;
-     flex-direction: column-reverse;
-   }
+    flex-direction: column;
+    flex-direction: column-reverse;
+   } 
 
    .list-link{
     display: flex;
     flex-wrap: wrap;
-     margin-left: 110px;
-     /* display: none; */
-     position: fixed;
+     margin-top: 60px;
+    margin-right: 15px;
      z-index: 50;
      flex-direction: row;
      flex-direction: row-reverse;
      background-color: rgba(0, 0, 139, 0.919);
    }
-
-   .close-button{
-    display: flex;
-    font-size: 15px;
-    margin-top: 8px;
-    margin-right: 10px;
-    cursor: pointer;
-    color: white;
-}
 
    .list-link ul, li, .link{
     display: flex;
@@ -156,17 +138,26 @@
     margin: 0.2rem;
     font-size: 12px;
     flex-direction: column;
-     /* background-color: rgba(0, 0, 139, 0.919); */
 }
 
-.avater-img{
-    height: 0;
-    width: 0;
-    margin-top: 30px;
-    margin-left: 160px;
+.avater-icon{
+    width: 0px;
+    display: block;
+    
 }
 
-.avater-img img{
-   height: 40px;
+
+.icon-img{
+  width: 50px;
+   height: 70px;
+   
+} 
+
+.close-button{
+    display: flex;
+    font-size: 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: white;
 }
 }
