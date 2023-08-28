@@ -1,76 +1,60 @@
 import React from 'react';
-import { useState } from 'react';
+import { useRef } from 'react';
 import '../Contact/Contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import Footers from '../../Components/Footers/Footers';
-
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-      firstName: '',
-      lastName: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
+  const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
   
-    const handleChange = (event) => {
-      const { name, value } = event.target;
-      setFormData({
-        ...formData,
-        [name]: value,
-      });
+      emailjs.sendForm('service_xjz4k0e', 'template_cyi0f5g', form.current, 'Zwde0LxpfFeaeHXfd')
+        .then((result) => {
+            console.log('Sent successfuly');
+        }, (error) => {
+            console.log('Error:', error);
+        });
+        e.target.reset();
     };
-  
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      // Handle form submission here (e.g., sending the data to the backend)
-      console.log(formData);
-      // Reset form fields after submission
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
-    };
-    
   return (
     <div className='Contact-container'>
         < Navbar  />
     <div className='contact-list'>    
     <div className='contact-form'>
       <h1 className='contact-h1'>Contact Us</h1>
-       <form onSubmit={handleSubmit}>
+       <form  ref={form} onSubmit={sendEmail}>
       <div className='contact-forms'>
-        <label htmlFor="firstName">First Name</label>
-        <input type="text" id="firstName" name="firstName" value={formData.firstName}  onChange={handleChange} required
+        <label htmlFor="firstName">FirstName</label>
+        <input type="text" id="firstName" name="firstName" required
         />
-        <label htmlFor="lastName">Last Name</label>
-        <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange}  required
+        <label htmlFor="lastName">LastName</label>
+        <input type="text" id="lastName" name="lastName" required
         />
       </div>
       <div className='contact-forms'>
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required
+        <input type="email" id="email" name="email" required
         />
       </div>
       <div className='contact-forms'>
         <label htmlFor="subject">Subject</label>
-        <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange}  required
+        <input type="text" id="subject" name="subject" required
         />
       </div>
       <div className='contact-forms'>
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" value={formData.message} onChange={handleChange} required
+        <textarea id="message" name="message" required
         />
       </div>
       <button type="submit">Submit</button>
     </form>
     </div>
+
     <div className='contact-info'>
        <div className='contact-infos'>
          <h1 className='more-detail'>Mail us at <span className='gmail'>Aetherwave.info@gmail.com</span> </h1>
