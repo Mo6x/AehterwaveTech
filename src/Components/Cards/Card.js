@@ -19,7 +19,7 @@ const Card = () => {
           <h2>HR- Hami Olana</h2>
           </div>
           <div className='Moses-slide'>
-          <h2>Team Lead-Christopher Osawel      Moses</h2>
+          <h2>Team Lead-Christopher Moses</h2>
           </div>
         </div>  
     </div>

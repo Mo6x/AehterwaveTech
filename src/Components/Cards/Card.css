@@ -24,7 +24,7 @@
 }
 
 .vision{
-   width: 25%;
+   width: 28%;
    height: 300px;
    margin-top: 20px;
    margin-left:20px;
@@ -52,11 +52,10 @@ span{
 }
 
 .paraghy{
-    width: 90%;
+    width: 100%;
     font-size: 12px;
-    margin-top: 5px;
-    margin-left: 20px;
-    font-weight: 400;
+    padding: 10px;
+    font-weight: bolder;
     font-family: serif;
     cursor: pointer;
     color: white;
@@ -83,6 +82,8 @@ h2{
     color: rgba(0, 0, 0, 0.701);
     background-color: whitesmoke;
 }
+
+
 
 @keyframes moveInLeft{
     0% {
@@ -164,7 +165,7 @@ h2{
     }
 
     .paraghy{
-        width: 90%;
+        width: 100%;
         font-size: 12px;
     }
 

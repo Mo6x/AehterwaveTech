@@ -16,8 +16,9 @@
 
 
 .Technology-img{
-    width: 650px;
-    height: 450px;
+    width: 660px;
+    height: 470px;
+    margin-top: -17px;
     border-radius: 10px;
     transition: all .8s;
     background-image: url(../../assert/person.jpeg);
@@ -25,7 +26,6 @@
     border: 0px solid black;
     animation-name: moveInLeft;
     animation-duration: 5s;
-    /* background-color: rgba(0, 0, 255, 0.621); */
 }
 
 .community-para{

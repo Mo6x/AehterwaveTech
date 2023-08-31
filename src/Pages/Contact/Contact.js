@@ -21,6 +21,7 @@ const Contact = () => {
         });
         e.target.reset();
     };
+    
   return (
     <div className='Contact-container'>
         < Navbar  />
