@@ -1,43 +1,34 @@
-.Navbar-container{
+.navbar{
     width: 1400px;
     height: 100px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgba(0, 0, 139, 0.911);
 }
 
-.navbar-section{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+.navbar-logo{
+   display: flex;
+   flex-wrap: wrap;
 }
 
-.navbe-img{
-    height: 100px;
-    width: 0px;
-    display: flex;
-    padding-left: 20px;
-    margin: 0px;
-    flex-direction: row;
-}
 
-.navbe-img img{
+.navbar-logo img{
     height: 100px;
-    margin-top: 0px;
+    margin-top: 5px;
     padding: 10px;
     cursor: pointer;
 }
 
-.navbe-img img:hover {
+.navbar-logo img:hover {
     animation-name: moveInRight;
     animation-duration: 1s;
 }
 
-
 .appgenius{
     height: 0;
-    margin-top: 35px;
-    margin-right: -2px;
+    margin-top: 40px;
     font-size: 12px;
     font-weight: bolder;
     cursor: pointer;
@@ -46,15 +37,13 @@
     animation-duration: 5s;
 }
 
-.Navbar-lists{
-    height: 0;
-    display: flex;
-    padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
+.techs{
+    display: block;
+    margin-left: 0px;
+    
 }
 
-.list-link ul, li, .link{
+ ul, li, a{
     display: flex;
     flex-wrap: wrap;
     font-weight: 400;
@@ -65,101 +54,79 @@
     font-family: sans-serif;
 }
 
-.link{
-    color: white; 
-    text-decoration: none;
-}
-
-.link:hover::after{
+a:hover::after{
     content: "";
     width: 100%;
     height: 1px;
     background-color:  rgb(252, 212, 152);
 }
 
-
-.avater-icon{
+  .navbar-item a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .mobile-menu-icon {
     display: none;
-}
+    flex-direction: column;
+    cursor: pointer;
+  }
 
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    margin-right: 10px;
+    transition: 0.4s;
+  }
 
+  .active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 
-@media all and (max-width: 750px){
-    .Navbar-container{
+  
+
+  @media (max-width: 768px) {
+    .navbar{
         width: 100%;
         height: 100px;
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        justify-content: space-between;
         background-color: rgba(0, 0, 139, 0.911);
     }
-
-    .navbe-img{
-        padding: 5px;
-    }
-
-    .navbe-img img{
-        height: 70px;
-        margin-top: 10px;
-        padding: 0px;
-        cursor: pointer;
-    }
-
+    
     .appgenius{
-        height: 0;
-        margin-top: 40px;
-        margin-right: -2px;
         font-size: 10px;
-        font-weight: bolder;
-        cursor: pointer;
-        color: rgb(252, 212, 152);
+        margin-top: 45px;
     }
 
-
-   .Navbar-lists{
-    height: 50%;
-    padding: 20px;
-     z-index: 50;
-    flex-direction: column;
-    flex-direction: column-reverse;
-   } 
-
-
-   .list-link{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-     z-index: 50;
-     flex-direction: row;
-     flex-direction: row-reverse;
-     background-color: rgba(0, 0, 139, 0.919);
-   }
-
-   .list-link ul, li, .link{
-    display: flex;
-    z-index: 50;
-    margin: 0.2rem;
-    font-size: 12px;
-    flex-direction: column;
-}
-
-.avater-icon{
-    width: 0px;
-    display: block; 
-    padding-top: 10px;
-    padding-left: 90px;
-}
-
-
-.icon-img{
-  width: 50px;
-   height: 70px; 
-} 
-
-
-.close-button{
-    display: flex;
-    font-size: 20px;
-    margin-top: 8px;
-    cursor: pointer;
-    color: white;
-    box-sizing: border-box;
-}
-}
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 40%;
+      background-color: rgba(0, 0, 139, 0.911);
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .mobile-menu-icon {
+      display: flex;
+    }
+  }
+ 
