@@ -7,7 +7,6 @@ import '../Mission/Mission.css';
 const Mission = () => {
   return (
     <div className='mission-container'>
-        <h1 className='visions-h1'>Our Vision</h1>
         <div className='mission-cards'>
            <div className='mission-card'>
               <div className='h1-images'>
@@ -15,7 +14,7 @@ const Mission = () => {
                  <h1>Courage</h1>
               </div>
               <p className='mission-p'>
-              AetherWave Technologies aims to have a level of openness with all stakeholders so that, they would have the courage to say and do what needs to be done at the right time. This is necessary to promote a transformative spirit in the work done by the company.
+              AehterWave Technologies aims to have a level of openness with all stakeholders so that, they would have the courage to say and do what needs to be done at the right time. This is necessary to promote a transformative spirit in the work done by the company.
               </p>
            </div>
 
@@ -25,7 +24,7 @@ const Mission = () => {
                  <h1>Humility</h1>
               </div>
               <p className='mission-p'>
-              AetherWave Technologies strives to have an inclusive ecosystem where there is room to safely make mistakes and learn from them
+              AehterWave Technologies strives to have an inclusive ecosystem where there is room to safely make mistakes and learn from them
               </p>
            </div>
 

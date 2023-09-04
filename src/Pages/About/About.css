@@ -14,7 +14,7 @@
    font-size: 40px;
    font-weight: bold;
    font-family: serif;
-   padding-left: 40%;
+   padding-left: 30%;
    color: rgba(0, 0, 0, 0.64);
    cursor: pointer;
    animation-name: moveInRight;
@@ -24,7 +24,7 @@
 .who-we-are{
     margin-top: 5%;
     font-size: 15px;
-    width: 67%;
+    width: 70%;
     margin-left: 15%;
     font-weight: 400;
     font-family: serif;
@@ -36,9 +36,9 @@
 @media all and (max-width: 750px){
     .highlight{
         font-size: 30px;
+        padding-left: 0px;
         font-weight: bold;
         font-family: serif;
-        padding-left: 25%;
         color: rgba(0, 0, 0, 0.64);
         cursor: pointer;
      }

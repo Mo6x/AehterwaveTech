@@ -12,9 +12,9 @@ const Service = () => {
        < Navbar  />
        <div className='Service-item-one'>
              <div className='Service-lists'>
-                <h1 className='assist'>As a AetherWave Technologies <span className='span-p'>we develops modal application for clients</span></h1>
+                <h1 className='assist'>As a AehterWave Technologies <span className='span-p'>we develops modal application for clients</span></h1>
                 <p className='p-color-1'>
-                As a AetherWave Technologies focused on developing modal applications for clients,<span className='span-p-1'> our primary responsibility will be to design and create user-friendly applications that engage and serve your customers effectively. Let's delve into more detail about this:</span>
+                As a AehterWave Technologies focused on developing modal applications for clients,<span className='span-p-1'> our primary responsibility will be to design and create user-friendly applications that engage and serve your customers effectively. Let's delve into more detail about this:</span>
                 </p>
                 <p className='pp'>
                  Modal Application Development: Our main task is to develop modal applications, which are user interface elements that overlay on top of the main application window. These modal interfaces typically serve a specific purpose, such as collecting user input, displaying alerts, or offering additional information.
@@ -43,10 +43,10 @@ const Service = () => {
                    Documentation and Support: Thorough documentation of the modal application development process and providing support to end-users, including customer service teams, will be essential.
                 </p>
                 <p className='pp'>
-                  Staying Updated: As a AetherWave Technologies, we'll need to stay informed about emerging technologies, design trends, and best practices in modal application development to bring the latest innovations to our clients.
+                  Staying Updated: As a AehterWave Technologies, we'll need to stay informed about emerging technologies, design trends, and best practices in modal application development to bring the latest innovations to our clients.
                 </p>
                 <p className='p-color-2'>
-                Our role as a AetherWave Technologies in developing modal applications for clients will significantly contribute to enhancing their customers interactions and overall user experience.<span className='span-p-2'> By creating compelling and user-centric modal interfaces, we'll help build stronger relationships with your customers and increase their satisfaction with your products and services.</span>
+                Our role as a AehterWave Technologies in developing modal applications for clients will significantly contribute to enhancing their customers interactions and overall user experience.<span className='span-p-2'> By creating compelling and user-centric modal interfaces, we'll help build stronger relationships with your customers and increase their satisfaction with your products and services.</span>
                 </p>
                 </p>
              </div>

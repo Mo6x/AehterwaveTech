@@ -1,10 +1,10 @@
 import React from 'react';
 import { useRef } from 'react';
 import '../Contact/Contact.css';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import Footers from '../../Components/Footers/Footers';
-import emailjs from '@emailjs/browser';
 
 
 
@@ -15,10 +15,10 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs.sendForm('service_xjz4k0e', 'template_cyi0f5g', form.current, 'Zwde0LxpfFeaeHXfd')
-        .then((result) => {
-            console.log('Sent successfuly');
-        }, (error) => {
-            console.log('Error:', error);
+        .then(function (result) {
+            result.status('errorBlue')
+        }, function(error) {
+            error.status('errorRed')
         });
         e.target.reset();
     };
@@ -29,6 +29,10 @@ const Contact = () => {
     <div className='contact-list'>    
     <div className='contact-form'>
       <h1 className='contact-h1'>Contact Us</h1>
+      <div className='errorHandle'> 
+         {/* {errorBlue(<div className='errorBlue'>sent successfuly</div>)}
+         {errorRed(<div className='errorRed'>message not sent</div>)} */}
+      </div>
        <form  ref={form} onSubmit={sendEmail}>
       <div className='contact-forms'>
         <label htmlFor="firstName">FirstName</label>

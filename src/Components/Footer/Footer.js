@@ -37,7 +37,7 @@ const Footer = () => {
                <div className='child'>Administrative Support</div>
                <div className='child'>Customer Support</div>
                <div className='child'>Content Creation</div>
-               <div className='child'>Website Managemen</div>
+               <div className='child'>Website management</div>
                <div className='child'>Technical Tasks</div>
                <div className='child'>Project Management</div>
                <div className='child'>Digital Marketing Support</div>
@@ -59,7 +59,7 @@ const Footer = () => {
          
          <div className='Footer-lists'>
              <div className='parent'>
-             <h1 className='h-one'>AetherWave  Technologies</h1>    
+             <h1 className='h-one'>AehterWave  Technologies</h1>    
                <div className='child'>Beta Testing and Feedback</div>
                <div className='child'>Tech Event Coordination</div>
                <div className='child'>Code Review and Debugging</div>

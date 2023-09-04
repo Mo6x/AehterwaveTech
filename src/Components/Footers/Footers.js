@@ -14,7 +14,7 @@ const Footers = () => {
         <div className='line'></div>
         <div className='Footers-detail'>
            <img src={Logo} alt='company logo' />
-           <p>AetherWave Technologies Limited: @2022 All Right Reserved.</p>
+           <p>AehterWave Technologies Limited: @2022 All Right Reserved.</p>
         </div>
         <div className='social-details'>
          <img src={Linkedin} alt='linkedin logo' />

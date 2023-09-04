@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Impact",
-    element: < Impact />,
+    element: <Impact />,
   },
   {
     path: "Contact",

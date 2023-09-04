@@ -17,7 +17,7 @@ const Community = () => {
         </div>  
           <div className='community-para'>
           <h1 className='community-h1'>What we can do for you</h1>
-          <p className='community-p'>
+          <p className='community-p-1'>
           Application Development: Our primary responsibility will be to design, develop, and maintain applications that facilitate better communication and engagement with your customers. These applications could be mobile apps, web applications, or even chatbots, depending on the specific needs of your business.
           <p>
           Customer Experience Enhancement: The applications we'll develop should aim to enhance the overall customer experience. This might include features like personalized recommendations, smooth user interfaces, and efficient customer support functionalities.

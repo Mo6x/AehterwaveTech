@@ -24,7 +24,7 @@
 }
 
 .vision{
-   width: 28%;
+   width: 27%;
    height: 300px;
    margin-top: 20px;
    margin-left:20px;
@@ -52,9 +52,8 @@ span{
 }
 
 .paraghy{
-    width: 100%;
     font-size: 12px;
-    padding: 10px;
+    padding: 13px;
     font-weight: bolder;
     font-family: serif;
     cursor: pointer;
@@ -165,8 +164,7 @@ h2{
     }
 
     .paraghy{
-        width: 100%;
-        font-size: 12px;
+       padding: 9px; 
     }
 
      .Cards-items{

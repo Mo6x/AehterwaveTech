@@ -18,6 +18,21 @@
     cursor: pointer;
 }
 
+.errorHandle{
+    display: hide;
+    font-size: larger;
+}
+
+.errorBlue{
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.errorRed{
+    color: red;
+    background-color: whitesmoke;
+}
+
 
 .contact-forms label{ 
     font-size: 15px;
