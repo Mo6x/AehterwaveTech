@@ -119,7 +119,7 @@ h2{
     height: 300px;
     border-radius: 10px;
     transition: all .8s;
-    background-image: url(../../assert/moses.png);
+    /* background-image: url(../../assert/moses.png); */
     background-size: cover;
     animation-name: moveInLeft;
     animation-duration: 5s;
