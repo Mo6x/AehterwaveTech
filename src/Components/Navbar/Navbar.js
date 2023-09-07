@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="navbar">
         <div className="navbar-logo">
            <img src={logo} alt='Company-logo' />
-           <h1 className='appgenius'>AEHTERWAVE <span className='techs'>TECHNOLOGIES</span></h1>
+           <h1 className='appgenius'>AEHTERWAVE<span className='techs'>TECHNOLOGIES</span></h1>
          </div>
 
       <ul className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>

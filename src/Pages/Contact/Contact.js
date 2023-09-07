@@ -14,12 +14,12 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_xjz4k0e', 'template_cyi0f5g', form.current, 'Zwde0LxpfFeaeHXfd')
-        .then(function (result) {
-            result.status('errorBlue')
-        }, function(error) {
-            error.status('errorRed')
-        });
+      emailjs.sendForm('service_zunbzrh', 'template_cyi0f5g', form.current, 'L7LX2tiCtz1VHuMZyC0tu')
+      .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
         e.target.reset();
     };
 
@@ -64,16 +64,15 @@ const Contact = () => {
     <div className='contact-info'>
        <div className='contact-infos'>
          <h1 className='more-detail'>Mail us at <span className='gmail'>Aetherwave.info@gmail.com</span> </h1>
-         <h1 className='more-detail'>Currently we operate out of USA, Nigeria</h1>
+         <h1 className='more-detail'>Currently we operate out of Nigeria, USA</h1>
        </div>
        <div className='contact-infos'>
          <h1 className='more-details'>Our address: 74 Allen Ave, Allen 101233, Ikeja, Lagos Nigeria</h1>
-         <h1 className='more-details'>AetherWave Technologies Private Limited</h1>
+         <h1 className='more-details'>AehterWave Technologies Private Limited</h1>
          <div className='contact-details'>
          <h1 className='more-details'>Mobils: Numbers</h1>
          <h1 className='more-details'>+1 (726) 567-0145</h1>
          <h1 className='more-details'>+234 8058960314</h1>
-         <h1 className='more-details'>+234 7033102999</h1>
          </div>
        </div>
     </div>

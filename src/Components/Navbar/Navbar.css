@@ -17,7 +17,6 @@
 .navbar-logo img{
     height: 100px;
     margin-top: 5px;
-    padding: 10px;
     cursor: pointer;
 }
 
@@ -28,8 +27,8 @@
 
 .appgenius{
     height: 0;
-    margin-top: 40px;
-    font-size: 12px;
+    margin-top: 43px;
+    font-size: 13px;
     font-weight: bolder;
     cursor: pointer;
     color: rgb(252, 212, 152);

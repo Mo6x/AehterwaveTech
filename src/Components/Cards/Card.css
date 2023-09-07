@@ -32,7 +32,7 @@
     animation-name: moveInRight;
     animation-duration: 5s;
    border: 1px solid rgba(0, 0, 255, 0.621);
-   background-color: rgba(0, 0, 255, 0.621);
+   background-color: rgba(0, 0, 139, 0.911);
 }
 
 span{
@@ -46,10 +46,16 @@ span{
     font-size: 20px;
    font-weight: bold; 
    padding-top: 15px;
-   padding-left: 30%;
+   padding-left: 20%;
    cursor: pointer;
    color: white;
 }
+
+.object{
+    margin-left: -40px;
+}
+
+
 
 .paraghy{
     font-size: 12px;
@@ -57,7 +63,7 @@ span{
     font-weight: bolder;
     font-family: serif;
     cursor: pointer;
-    color: white;
+    color: whitesmoke;
 }
 
 
@@ -67,24 +73,29 @@ span{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /* perspective: 150rem;
+    -moz-perspective: 150rem; */
     justify-content: space-between;
     background-color: whitesmoke;
 }
 
+.title-side{
+    margin-left: 0px;
+    display: block; 
+}
+
 h2{
-    font-size: 15px;
-    margin-top: 95%;
-    padding-left: 10px;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 50px;
     font-family: serif;
     font-weight: 400;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.701);
-    background-color: whitesmoke;
+    color: whitesmoke;
 }
 
 
-
-@keyframes moveInLeft{
+ @keyframes moveInLeft{
     0% {
        opacity: 0;
        transform: translateX(-100px);
@@ -97,51 +108,167 @@ h2{
     100% {
        opacity: 1;
        transform: translate(0);
-    }
+    } 
 }
-
- .Joseph-slide{
+  
+    .Joseph-slide{   
     width: 300px;
     height: 300px;
-    border-radius: 10px;
-    transition: all .8s;
-    background-image: url(../../assert/Joseph.png);
-    background-size: cover;
-    /* animation-delay: 1s; */
+    position: relative;
     animation-name: moveInLeft;
     animation-duration: 5s;
+    backface-visibility: hidden;
+  }
+
+
+ .Joseph-slide-font{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
     border: 1px solid rgba(0, 0, 255, 0.621);
-    background-color: rgba(0, 0, 255, 0.621);
+    background-color: rgba(0, 0, 139, 0.911);
+}
+
+
+.Joseph-slide-font:hover{
+    transform: rotateY(180deg);
+}
+
+
+.Joseph-slide-back{
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
+    border: 1px solid rgba(0, 0, 255, 0.621);
+    background-color: whitesmoke;
+    background-size: cover;
+     background-image: url(../../assert/Joseph.png); 
+}
+
+.Joseph-slide-back:hover{
+    transform: rotateY(180deg);
 }
 
  .Biola-slide{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
-    transition: all .8s;
-    /* background-image: url(../../assert/moses.png); */
-    background-size: cover;
+    position: relative;
     animation-name: moveInLeft;
     animation-duration: 5s;
-    border: 1px solid rgba(0, 0, 255, 0.621);
-    background-color: rgba(0, 0, 255, 0.621);
+    backface-visibility: hidden;
 }
+
+.Biola-slide-font{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
+    border: 1px solid rgba(0, 0, 255, 0.621);
+    background-color: rgba(0, 0, 139, 0.911);
+}
+
+ .Biola-slide-font:hover{
+    transform: rotateY(180deg);
+}
+
+ 
+.Biola-slide-back{
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
+    border: 1px solid rgba(0, 0, 255, 0.621);
+    background-color: whitesmoke;
+    background-size: cover;
+     /* background-image: url(../../assert/Joseph.png);  */
+}
+
+.Biola-slide-back:hover{
+    transform: rotateY(180deg);
+}
+
+ 
 
 .Moses-slide{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
-    transition: all .8s;
-    background-image: url(../../assert/moses.png);
-    background-size: cover;
+    position: relative;
     animation-name: moveInLeft;
     animation-duration: 5s;
-    border: 1px solid rgba(0, 0, 255, 0.621);
-    background-color: rgba(0, 0, 255, 0.621);
+    backface-visibility: hidden;
 }
 
-.Card-slide &:hover{
-    transform: rotate(180deg);
+
+.Moses-slide-font{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
+    border: 1px solid rgba(0, 0, 255, 0.621);
+    background-color: rgba(0, 0, 139, 0.911);
+}
+
+  .Moses-slide-font:hover{
+    transform: rotateY(180deg);
+}
+
+.Moses-slide-back{
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all .8s;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    backface-visibility: hidden;
+    border: 1px solid rgba(0, 0, 255, 0.621);
+    background-color: whitesmoke;
+    background-size: cover;
+     background-image: url(../../assert/moses.png); 
+}
+
+.Moses-slide-back:hover{
+    transform: rotateY(180deg);
 }
 
 
