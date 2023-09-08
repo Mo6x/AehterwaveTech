@@ -76,7 +76,7 @@ a:hover::after{
     height: 3px;
     background-color: white;
     margin: 3px 0;
-    margin-right: 10px;
+    margin-right: 20px;
     transition: 0.4s;
   }
 
