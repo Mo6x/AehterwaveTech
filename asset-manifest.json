@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/AehterwaveTech/static/css/main.282c5fc1.css",
+    "main.js": "/AehterwaveTech/static/js/main.e7ffd3ec.js",
+    "static/js/787.28cb0dcd.chunk.js": "/AehterwaveTech/static/js/787.28cb0dcd.chunk.js",
+    "static/media/supply.jpeg": "/AehterwaveTech/static/media/supply.9d13bccc78729ffae50c.jpeg",
+    "static/media/document.png": "/AehterwaveTech/static/media/document.ea315c637329ae2274c6.png",
+    "static/media/quality.png": "/AehterwaveTech/static/media/quality.52a0498dcbac370d0e8b.png",
+    "static/media/moses.png": "/AehterwaveTech/static/media/moses.c272afd95023b2cedcad.png",
+    "static/media/lang.jpeg": "/AehterwaveTech/static/media/lang.7af21a1ea4096835b235.jpeg",
+    "static/media/courages.jpeg": "/AehterwaveTech/static/media/courages.532b9e60eb2bf66807c5.jpeg",
+    "static/media/person.jpeg": "/AehterwaveTech/static/media/person.a4fb050aa4629daa3f17.jpeg",
+    "static/media/Joseph.png": "/AehterwaveTech/static/media/Joseph.b6f0730bc2de4054b0d8.png",
+    "static/media/growth.jpeg": "/AehterwaveTech/static/media/growth.23b4bd0fb4f44e4fce31.jpeg",
+    "static/media/feature-2023.jpeg": "/AehterwaveTech/static/media/feature-2023.164f67a138d524051654.jpeg",
+    "static/media/design.jpeg": "/AehterwaveTech/static/media/design.d47ae25e404ffd4cb08a.jpeg",
+    "static/media/logo.png": "/AehterwaveTech/static/media/logo.96554956762a8da4e964.png",
+    "static/media/repair.jpeg": "/AehterwaveTech/static/media/repair.bc152d858a286dc2f690.jpeg",
+    "static/media/slite.webp": "/AehterwaveTech/static/media/slite.2631e7cae719460aed98.webp",
+    "static/media/compliance.jpeg": "/AehterwaveTech/static/media/compliance.c9ec596021d36b0354de.jpeg",
+    "static/media/sucess.jpeg": "/AehterwaveTech/static/media/sucess.17e238c83f994ea66853.jpeg",
+    "index.html": "/AehterwaveTech/index.html",
+    "main.282c5fc1.css.map": "/AehterwaveTech/static/css/main.282c5fc1.css.map",
+    "main.e7ffd3ec.js.map": "/AehterwaveTech/static/js/main.e7ffd3ec.js.map",
+    "787.28cb0dcd.chunk.js.map": "/AehterwaveTech/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.282c5fc1.css",
+    "static/js/main.e7ffd3ec.js"
+  ]
+}
