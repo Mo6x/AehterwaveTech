@@ -7,11 +7,9 @@
 }
 
 .Community-details{
-    /* margin-top: 5%; */
     padding: 20px; 
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
 }
 
 
