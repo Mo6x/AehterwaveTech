@@ -207,7 +207,7 @@ h2{
     border: 1px solid rgba(0, 0, 255, 0.621);
     background-color: whitesmoke;
     background-size: cover;
-     /* background-image: url(../../assert/Joseph.png);  */
+     background-image: url(../../assert/Joseph.png); 
 }
 
 .Biola-slide-back:hover{
