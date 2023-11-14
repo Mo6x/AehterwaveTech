@@ -24,7 +24,7 @@ const Navbar = () => {
         <li className="navbar-item"><a href="/About">About-Us</a></li>
         <li className="navbar-item"><a href="/Services">Services</a></li>
         <li className="navbar-item"><a href="/Impact">Impact</a></li>
-        <li className="navbar-item"><a href="Contact">Contact-Us</a></li>
+        <li className="navbar-item"><a href="/Contact">Contact-Us</a></li>
       </ul>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         <span className={`bar ${isMobileMenuOpen ? 'active' : ''}`} />

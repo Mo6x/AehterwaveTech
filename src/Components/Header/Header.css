@@ -1,7 +1,8 @@
 .header-Container{
     display: flex;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 800px;
+    object-fit: contain;
     background-image: url(../../assert/lang.jpeg);
     background-size: cover;
 }
